@@ -3,6 +3,9 @@ youtube.com##ytd-reel-shelf-renderer
 youtube.com##ytd-mini-guide-entry-renderer:has-text(ショート)
 youtube.com##ytd-guide-entry-renderer:has-text(ショート)
 
+!チャンネル
+youtube.com##ytd-channel-renderer
+
 !キーワード
 youtube.com##ytd-video-renderer:has-text(ひろゆき),ytd-rich-grid-media:has-text(ひろゆき)
 youtube.com##ytd-video-renderer:has-text(青汁),ytd-rich-grid-media:has-text(青汁)
