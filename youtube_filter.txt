@@ -7,6 +7,9 @@ youtube.com##ytd-guide-entry-renderer:has-text(ショート)
 youtube.com##ytd-channel-renderer
 youtube.com##[class*="ytd-channel-renderer"]
 
+!他の人はこちらも検索
+youtube.com##ytd-horizontal-card-list-renderer:has-text(他の人はこちらも検索)
+
 !キーワード
 youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has-text(ひろゆき)
 youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has-text(青汁)
