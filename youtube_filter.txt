@@ -5,6 +5,7 @@ youtube.com##ytd-guide-entry-renderer:has-text(ショート)
 
 !チャンネル
 youtube.com##ytd-channel-renderer
+youtube.com##[class*="ytd-channel-renderer"]
 
 !キーワード
 youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has-text(ひろゆき)
