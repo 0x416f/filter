@@ -75,6 +75,7 @@ www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(ナリナリドット
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(andGIRL)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(4MEEE)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(ピンズバNEWS)
+www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(えらせん)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(韓ドラ)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(BTS)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(ひろゆき)
