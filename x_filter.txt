@@ -10,8 +10,7 @@ x.com##a[href="/i/verified-orgs-signup"]
 x.com##[aria-label="トレンド"]>div>div:has(div:has-text(プレミアムにサブスクライブ))
 x.com##[aria-label="トレンド"]>div>div:has(div:has-text(いまどうしてる？))
 x.com##[aria-label="トレンド"]>div>div:has(div:has-text(おすすめユーザー))
-
-x.com##[aria-label="おすすめユーザー"]
+x.com##[aria-label="トレンド"]>div>div:has(div:has-text(おすすめツイート))
 
 x.com##[data-testid="DMDrawer"]
 
