@@ -28,3 +28,6 @@ m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-s
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(朝倉未来))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(東海オンエア))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(/イーフト|eFootball/))
+
+!チャンネル
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@RTAbiim"))
