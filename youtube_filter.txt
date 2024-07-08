@@ -31,4 +31,4 @@ youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt
 youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(/すぎ(た|な|る)/))
 youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(/(た|な|る)件*。*$/))
 youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(加藤純一))
-
+youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(朝倉未来))
