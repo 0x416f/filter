@@ -8,6 +8,9 @@ youtube.com##ytd-rich-section-renderer:has-text(ショート)
 youtube.com##ytd-channel-renderer
 youtube.com##[class*="ytd-channel-renderer"]
 
+!他のサービス
+youtube.com##ytd-guide-section-renderer:has-text(YouTube の他のサービス)
+
 !他の人はこちらも検索
 youtube.com##ytd-horizontal-card-list-renderer:has-text(他の人はこちらも検索)
 
