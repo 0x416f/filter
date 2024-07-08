@@ -1,0 +1,12 @@
+!Grok
+x.com##a[href="/i/grok"]
+!コミュニティ
+x.com##a[href$="/communities"]
+!プレミアム
+x.com##a[href="/i/premium_sign_up"]
+!認証済み組織
+x.com##a[href="/i/verified-orgs-signup"]
+
+!トレンド
+x.com##div[data-testid*="trend"]:has-text(生誕祭)
+x.com##div[data-testid*="trend"]:has-text(誕生祭)
