@@ -1,5 +1,7 @@
 !登録チャンネルページは除外
-@@||youtube.com/feed/subscriptions^
+||youtube.com/feed/trending
+@@||youtube.com/feed/subscriptions
+
 
 !ショート
 youtube.com##ytd-reel-shelf-renderer
