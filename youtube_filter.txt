@@ -19,7 +19,7 @@ youtube.com##ytd-horizontal-card-list-renderer:has-text(他の人はこちらも
 ##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(青汁))
 ##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(切り抜き))
 ##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(DaiGo))
-##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(中田))
+##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(中田敦彦))
 ##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(ずんだもん))
 ##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(フォートナイト))
 ##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(Fortnite))
@@ -33,4 +33,5 @@ youtube.com##ytd-horizontal-card-list-renderer:has-text(他の人はこちらも
 ##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(/[ぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠](w|ｗ)+$/))
 ##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(/すぎ(た|な|る)/))
 ##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(/(た|な|る)件*。*$/))
+##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(加藤純一))
 
