@@ -1,5 +1,3 @@
-@@||youtube.com/feed/subscriptions^
-
 !ショート
 youtube.com##ytd-reel-shelf-renderer
 youtube.com##ytd-mini-guide-entry-renderer:has-text(ショート)
@@ -32,3 +30,6 @@ youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt
 youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(/[ぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠](w|ｗ)+$/))
 youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(/すぎ(た|な|る)/))
 youtube.com##[class*="ytd-rich-grid-media"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(/(た|な|る)件*。*$/))
+
+@@||youtube.com/feed/subscriptions^
+
