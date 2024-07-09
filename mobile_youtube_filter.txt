@@ -31,3 +31,7 @@ m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-s
 
 !チャンネル
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@RTAbiim"])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-sakamame420"])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-lz9kq3id6f"])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@footballparkclassic9823"])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@footballdoctors"])
