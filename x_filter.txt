@@ -18,7 +18,7 @@ x.com##[data-testid="DMDrawer"]
 x.com##[aria-label="タイムライン: 会話"] button:has-text(フォロー)
 x.com##[aria-label="タイムライン: 会話"] button:has-text(購入する)
 
-x.com##[aria-label="ホームタイムライン"] div[data-testid="placementTracking"]:has(button:has-text(購入する))
+x.com##[aria-label="ホームタイムライン"] button:has-text(購入する):upward(1)
 x.com##[aria-label="ホームタイムライン"] button[aria-label*="サブスクライブ"]
 
 !トレンド
