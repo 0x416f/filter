@@ -7,10 +7,11 @@ x.com##a[href="/i/premium_sign_up"]
 !認証済み組織
 x.com##a[href="/i/verified-orgs-signup"]
 
-x.com##[aria-label="トレンド"]>div>div:has(div:has-text(プレミアムにサブスクライブ))
-x.com##[aria-label="トレンド"]>div>div:has(div:has-text(いまどうしてる？))
-x.com##[aria-label="トレンド"]>div>div:has(div:has-text(おすすめユーザー))
-x.com##[aria-label="トレンド"]>div>div:has(div:has-text(おすすめツイート))
+x.com##[aria-label="トレンド"]>div>div:has-text(プレミアムにサブスクライブ)
+x.com##[aria-label="トレンド"]>div>div:has-text(いまどうしてる？)
+x.com##[aria-label="トレンド"]>div>div:has-text(おすすめユーザー)
+x.com##[aria-label="トレンド"]>div>div:has-text(おすすめツイート)
+x.com##[aria-label="トレンド"]>div>div:has-text(関連性の高いアカウント)
 
 x.com##[data-testid="DMDrawer"]
 
