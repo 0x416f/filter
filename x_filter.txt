@@ -14,6 +14,11 @@ x.com##[aria-label="トレンド"]>div>div:has(div:has-text(おすすめツイ�
 
 x.com##[data-testid="DMDrawer"]
 
+x.com##[aria-label="タイムライン: 会話"] button:has-text(フォロー)
+x.com##[aria-label="タイムライン: 会話"] button:has-text(購入する)
+
+x.com##[aria-label="ホームタイムライン"] button[aria-label*="サブスクライブ"]
+
 !トレンド
 x.com##div[data-testid="trend"]:has-text(生誕祭)
 x.com##div[data-testid="trend"]:has-text(誕生祭)
