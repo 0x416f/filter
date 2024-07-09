@@ -17,3 +17,4 @@ x.com##[data-testid="DMDrawer"]
 !トレンド
 x.com##div[data-testid="trend"]:has-text(生誕祭)
 x.com##div[data-testid="trend"]:has-text(誕生祭)
+x.com##div[data-testid="trend"]:has-text(凸)
