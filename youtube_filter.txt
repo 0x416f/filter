@@ -40,3 +40,10 @@ youtube.com##[class*="ytd-rich-item-render"],[class*="ytd-video-renderer"]:has(y
 youtube.com##[class*="ytd-rich-item-render"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(朝倉未来))
 youtube.com##[class*="ytd-rich-item-render"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(東海オンエア))
 youtube.com##[class*="ytd-rich-item-render"],[class*="ytd-video-renderer"]:has(yt-formatted-string:has-text(/イーフト|eFootball/))
+
+!チャンネル
+youtube.com##[class*="ytd-rich-item-render"],[class*="ytd-video-renderer"]:has(a[href="/@RTAbiim"])
+youtube.com##[class*="ytd-rich-item-render"],[class*="ytd-video-renderer"]:has(a[href="/@user-sakamame420"])
+youtube.com##[class*="ytd-rich-item-render"],[class*="ytd-video-renderer"]:has(a[href="/@user-lz9kq3id6f"])
+youtube.com##[class*="ytd-rich-item-render"],[class*="ytd-video-renderer"]:has(a[href="/@footballparkclassic9823"])
+youtube.com##[class*="ytd-rich-item-render"],[class*="ytd-video-renderer"]:has(a[href="/@footballdoctors"])
