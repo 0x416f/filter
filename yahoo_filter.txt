@@ -2,6 +2,10 @@
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="biz"]
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="info"]
 
+!広告
+www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##li:has(a[href*="promotion"])
+www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##li:has(a[href*="prom"])
+
 !記事
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(NEWSポストセブン)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(anan web)
@@ -83,6 +87,7 @@ www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(ピンズバNEWS)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(えらせん)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(4yuuu)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(googirl)
+www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(インサイド)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(韓ドラ)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(BTS)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(ひろゆき)
