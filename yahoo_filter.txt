@@ -1,3 +1,8 @@
+!サイドバー
+www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="biz"]
+www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="info"]
+
+!記事
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(NEWSポストセブン)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(anan web)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(夕刊フジ)
@@ -98,6 +103,8 @@ www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(素顔)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(テレビ)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(驚き)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(サイン)
+www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(/!|！/)
+www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(/?|？/)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(♡)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(♪)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(運勢)
