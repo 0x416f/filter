@@ -1,7 +1,3 @@
-!サイドバー
-www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="biz"]
-www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="info"]
-
 !記事
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(NEWSポストセブン)
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##a:has-text(anan web)
