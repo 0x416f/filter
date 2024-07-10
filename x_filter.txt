@@ -24,6 +24,10 @@ x.com##[aria-label="タイムライン: 会話"] button:has-text(購入する)
 x.com##[aria-label="ホームタイムライン"] button:has-text(購入する):upward(1)
 x.com##[aria-label="ホームタイムライン"] button[aria-label*="サブスクライブ"]
 
+x.com##div[role="menuitem"]:has-text(さんをフォロー)
+x.com##div[role="menuitem"]:has-text(さんのフォローを解除)
+x.com##div[role="menuitem"]:has-text(購入する)
+
 !トレンド
 x.com##div[data-testid="trend"]:has-text(生誕祭)
 x.com##div[data-testid="trend"]:has-text(誕生祭)
