@@ -8,7 +8,7 @@ x.com##a[href="/i/premium_sign_up"]
 x.com##a[href="/i/verified-orgs-signup"]
 
 !上部の投稿フォーム
-x.com##[aria-label="ホームタイムライン"]>div:has-text(ポストする)
+x.com##[aria-label="ホームタイムライン"]>div:has(textarea)
 
 x.com##[aria-label="トレンド"]>div>div:has-text(プレミアムにサブスクライブ)
 x.com##[aria-label="トレンド"]>div>div:has-text(いまどうしてる？)
