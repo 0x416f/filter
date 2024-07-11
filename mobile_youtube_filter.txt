@@ -21,13 +21,15 @@ m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-s
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(カジサック))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(宮迫))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(/ま(した|す)。*$/))
-m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(/[ぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠](w|ｗ)+$/))
+m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(/[ぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠](W|Ｗ|w|ｗ)+$/))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(/すぎ(た|な|る)/))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(/(た|な|る)件。*$/))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(加藤純一))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(朝倉未来))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(東海オンエア))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(/イーフト|eFootball/))
+m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(/がこちら(W|Ｗ|w|ｗ)*$/))
+m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(末路))
 
 !チャンネル
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@RTAbiim"])
