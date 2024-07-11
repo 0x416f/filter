@@ -1,6 +1,9 @@
-!ショート
-m.youtube.com##ytm-reel-shelf-renderer
+!画面下部のショート動画アイコン
 m.youtube.com##ytm-pivot-bar-item-renderer:has-text(ショート)
+
+!ショート動画
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-video-with-context-renderer:has(badge-shape:has-text(ショート))
 
 !チャンネル
 m.youtube.com##ytm-compact-channel-renderer
@@ -57,3 +60,4 @@ m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@Mitoworld"])
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-lw8gr7iu9u"])
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@yukusaka-jpn"])
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@2ch-soccer-jyouhoukan"])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@yukurabo"])
