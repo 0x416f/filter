@@ -3,6 +3,7 @@ www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="biz"]
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="info"]
 
 !広告
+www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##li:has(a[href*="paypay"])
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##li:has(a[href*="lyp"])
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##li:has(a[href*="takarabako"])
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##li:has(a[href*="promotion"])
