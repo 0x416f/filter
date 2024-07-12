@@ -1,6 +1,9 @@
 !画面下部のショート動画アイコン
 m.youtube.com##ytm-pivot-bar-item-renderer:has-text(ショート)
 
+!トップのバナー
+m.youtube.com##ytm-statement-banner-renderer
+
 !ショート動画
 m.youtube.com##ytm-reel-shelf-renderer
 m.youtube.com##ytm-video-with-context-renderer:has(badge-shape:has-text(ショート))
