@@ -37,6 +37,7 @@ m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-s
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(/がこちら(W|Ｗ|w|ｗ)*$/))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(末路))
 m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(の反応))
+m.youtube.com##ytm-video-with-context-renderer:has([class*="yt-core-attributed-string"]:has-text(外国人))
 
 !チャンネル
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@RTAbiim"])
@@ -65,3 +66,4 @@ m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@yukusaka-jpn"])
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@2ch-soccer-jyouhoukan"])
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@yukurabo"])
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-bg4pu5if9k"])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@ORICONofficial"])
