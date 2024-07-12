@@ -3,6 +3,7 @@ youtube.com##ytd-reel-shelf-renderer
 youtube.com##ytd-mini-guide-entry-renderer:has-text(ショート)
 youtube.com##ytd-guide-entry-renderer:has-text(ショート)
 youtube.com##ytd-rich-section-renderer:has-text(ショート)
+youtube.com##ytd-shelf-renderer:has(badge-shape:has-text(ショート))
 
 !チャンネル
 youtube.com##ytd-channel-renderer
@@ -40,6 +41,10 @@ youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(朝倉未来))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(東海オンエア))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(/イーフト|eFootball/))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(/がこちら(W|Ｗ|w|ｗ)*$/))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(末路))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(の反応))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(外国人))
 
 !チャンネル
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@RTAbiim"]))
@@ -51,3 +56,21 @@ youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@kikiashi-head"]))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@SoccerQBK"]))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@Generalkobayashi"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@highlight_soccerweb_costa"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@BiimRTA"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-xd8uk7sr3l"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@retro-yukkuri"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-hh5su4ts6v"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@qizwhEyfzuY"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-qu5tq6vc6o"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-yv3kb6jk1z"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@minnanosoccer"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@footballjapan14"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@uwasakahanpanaitte"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@Mitoworld"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-lw8gr7iu9u"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@yukusaka-jpn"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@2ch-soccer-jyouhoukan"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@yukurabo"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-bg4pu5if9k"]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@ORICONofficial"]))
