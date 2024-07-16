@@ -3,7 +3,7 @@ youtube.com##ytd-reel-shelf-renderer
 youtube.com##ytd-mini-guide-entry-renderer:has-text(ショート)
 youtube.com##ytd-guide-entry-renderer:has-text(ショート)
 youtube.com##ytd-rich-section-renderer:has-text(ショート)
-youtube.com##ytd-shelf-renderer:has(badge-shape:has-text(ショート))
+youtube.com##ytd-shelf-renderer, ytd-rich-item-renderer, ytd-video-renderer:has(badge-shape:has-text(ショート))
 
 !チャンネル
 youtube.com##ytd-channel-renderer
