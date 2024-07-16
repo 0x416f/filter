@@ -110,3 +110,5 @@ youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-lv5dq3py9n" i]))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-iz7id7gz6q" i]))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-df5pm2wx3f" i]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-vg7ml6du7z" i]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-nz3jh2xw6p" i]))
