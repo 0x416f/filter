@@ -47,6 +47,10 @@ m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:ha
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(申し訳))
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(/(皆|みな)(様|さま)/))
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(/初めて.+/))
+m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(もこう))
+m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(はじめしゃちょー))
+m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(ヒカキン))
+m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(にじさんじ))
 
 !チャンネル
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@RTAbiim"])
