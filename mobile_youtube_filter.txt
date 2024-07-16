@@ -45,6 +45,7 @@ m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:ha
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(許せない))
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(お話))
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(申し訳))
+m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(/(皆|みな)(様|さま)/))
 
 !チャンネル
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@RTAbiim"])
