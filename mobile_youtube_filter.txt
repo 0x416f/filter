@@ -46,6 +46,7 @@ m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:ha
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(お話))
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(申し訳))
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(/(皆|みな)(様|さま)/))
+m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(/初めて.+/))
 
 !チャンネル
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@RTAbiim"])
@@ -108,3 +109,4 @@ m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-iz7id7gz6q" i]
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-df5pm2wx3f" i])
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-vg7ml6du7z" i])
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-nz3jh2xw6p" i])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-zl6cg4dr8r" i])
