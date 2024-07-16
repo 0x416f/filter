@@ -25,6 +25,7 @@ www.google.com,www.google.co.jp##div.g:has(a[href*="://www.asagaya-nomiya.jp"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://www.sematome.com"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://www.akb48matomemory.com"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://blog.esuteru.com"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://di-arezzo.jp"])
 
 !週刊誌
 www.google.com,www.google.co.jp##div.g:has(a[href*="://toyokeizai.net"])
