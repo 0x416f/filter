@@ -48,6 +48,8 @@ youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(批判殺到))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(許せない))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(お話))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(申し訳))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(/(皆|みな)(様|さま)/))
 
 !チャンネル
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@RTAbiim" i]))
