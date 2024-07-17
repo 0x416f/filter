@@ -52,6 +52,9 @@ m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:ha
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(ヒカキン))
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(にじさんじ))
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(凸))
+m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(マンさん))
+m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(ま(ー|～)ん))
+m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(チー牛))
 
 !チャンネル
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@RTAbiim"])
