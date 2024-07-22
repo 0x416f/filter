@@ -1,23 +1,23 @@
-!Grok
+!左サイドバー
 x.com##a[href="/i/grok"]
-!コミュニティ
 x.com##a[href$="/communities"]
-!プレミアム
 x.com##a[href="/i/premium_sign_up"]
-!認証済み組織
 x.com##a[href="/i/verified-orgs-signup"]
 
-!上部の投稿フォーム
-x.com##[aria-label="ホームタイムライン"]>div:has([data-testid*="Textarea"])
-
+!右サイドバー
 x.com##[aria-label="トレンド"]>div>div:has-text(プレミアムにサブスクライブ)
 x.com##[aria-label="トレンド"]>div>div:has-text(いまどうしてる？)
 x.com##[aria-label="トレンド"]>div>div:has-text(おすすめユーザー)
 x.com##[aria-label="トレンド"]>div>div:has-text(おすすめツイート)
 x.com##[aria-label="トレンド"]>div>div:has-text(関連性の高いアカウント)
 
+!上部の投稿フォームを非表示
+x.com##[aria-label="ホームタイムライン"]>div:has([data-testid*="Textarea"])
+
+!画面下部のDMフォームを非表示
 x.com##[data-testid="DMDrawer"]
 
+!個別ページのフォロー/サブスクボタンの非表示(誤フォロー/フォロー外し防止)
 x.com##[aria-label="タイムライン: 会話"] button:has-text(フォロー)
 x.com##[aria-label="タイムライン: 会話"] button:has-text(購入する)
 
@@ -28,7 +28,13 @@ x.com##div[role="menuitem"]:has-text(さんをフォロー)
 x.com##div[role="menuitem"]:has-text(さんのフォローを解除)
 x.com##div[role="menuitem"]:has-text(購入する)
 
-!トレンド
+!TL更新時の矢印アイコンを非表示(モバイル版のブックマーク検索の障害になる)
+x.com##svg[aria-label*="画面を引き下げて更新"]:nth-ancestor(1)
+
+!ブロックユーザーを一覧に表示しない
+x.com##div[aria-label="ホームタイムライン"] div[data-testid]:has-text(ブロック中)
+
+!トレンドから除外
 x.com##div[data-testid="trend"]:has-text(生誕祭)
 x.com##div[data-testid="trend"]:has-text(誕生祭)
 x.com##div[data-testid="trend"]:has-text(凸)
