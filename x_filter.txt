@@ -33,6 +33,7 @@ x.com##svg[aria-label*="画面を引き下げて更新"]:nth-ancestor(1)
 
 !ブロックユーザーを一覧に表示しない
 x.com##div[aria-label="ホームタイムライン"] div[cslt_tweet_info]:has-text(ブロック中)
+x.com##div[aria-label="ホームタイムライン"] button[data-testid=UserCell]:has-text(ブロック中):nth-ancestor(3)
 
 !トレンドから除外
 x.com##div[data-testid="trend"]:has-text(生誕祭)
