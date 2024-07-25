@@ -1,41 +1,41 @@
 !左サイドバー
-x.com##a[href="/i/grok"]
-x.com##a[href$="/communities"]
-x.com##a[href="/i/premium_sign_up"]
-x.com##a[href="/i/verified-orgs-signup"]
+twitter.com,x.com##a[href="/i/grok"]
+twitter.com,x.com##a[href$="/communities"]
+twitter.com,x.com##a[href="/i/premium_sign_up"]
+twitter.com,x.com##a[href="/i/verified-orgs-signup"]
 
 !右サイドバー
-x.com##[aria-label="トレンド"]>div>div:has-text(プレミアムにサブスクライブ)
-x.com##[aria-label="トレンド"]>div>div:has-text(いまどうしてる？)
-x.com##[aria-label="トレンド"]>div>div:has-text(おすすめユーザー)
-x.com##[aria-label="トレンド"]>div>div:has-text(おすすめツイート)
-x.com##[aria-label="トレンド"]>div>div:has-text(関連性の高いアカウント)
+twitter.com,x.com##[aria-label="トレンド"]>div>div:has-text(プレミアムにサブスクライブ)
+twitter.com,x.com##[aria-label="トレンド"]>div>div:has-text(いまどうしてる？)
+twitter.com,x.com##[aria-label="トレンド"]>div>div:has-text(おすすめユーザー)
+twitter.com,x.com##[aria-label="トレンド"]>div>div:has-text(おすすめツイート)
+twitter.com,x.com##[aria-label="トレンド"]>div>div:has-text(関連性の高いアカウント)
 
 !上部の投稿フォームを非表示
-x.com##[aria-label="ホームタイムライン"]>div:has([data-testid*="Textarea"])
+twitter.com,x.com##[aria-label="ホームタイムライン"]>div:has([data-testid*="Textarea"])
 
 !画面下部のDMフォームを非表示
-x.com##[data-testid="DMDrawer"]
+twitter.com,x.com##[data-testid="DMDrawer"]
 
 !個別ページのフォロー/サブスクボタンの非表示(誤フォロー/フォロー外し防止)
-x.com##[aria-label="タイムライン: 会話"] button:has-text(フォロー)
-x.com##[aria-label="タイムライン: 会話"] button:has-text(購入する)
+twitter.com,x.com##[aria-label="タイムライン: 会話"] button:has-text(フォロー)
+twitter.com,x.com##[aria-label="タイムライン: 会話"] button:has-text(購入する)
 
-x.com##[aria-label="ホームタイムライン"] button:has-text(購入する):upward(1)
-x.com##[aria-label="ホームタイムライン"] button[aria-label*="サブスクライブ"]
+twitter.com,x.com##[aria-label="ホームタイムライン"] button:has-text(購入する):upward(1)
+twitter.com,x.com##[aria-label="ホームタイムライン"] button[aria-label*="サブスクライブ"]
 
-x.com##div[role="menuitem"]:has-text(さんをフォロー)
-x.com##div[role="menuitem"]:has-text(さんのフォローを解除)
-x.com##div[role="menuitem"]:has-text(購入する)
+twitter.com,x.com##div[role="menuitem"]:has-text(さんをフォロー)
+twitter.com,x.com##div[role="menuitem"]:has-text(さんのフォローを解除)
+twitter.com,x.com##div[role="menuitem"]:has-text(購入する)
 
 !TL更新時の矢印アイコンを非表示(モバイル版のブックマーク検索の障害になる)
-x.com##svg[aria-label*="画面を引き下げて更新"]:nth-ancestor(1)
+twitter.com,x.com##svg[aria-label*="画面を引き下げて更新"]:nth-ancestor(1)
 
 !ブロックユーザーを一覧に表示しない
-x.com##div[aria-label="ホームタイムライン"] div[cslt_tweet_info]:has-text(ブロック中)
-x.com##div[aria-label="ホームタイムライン"] button[data-testid=UserCell]:has-text(ブロック中):nth-ancestor(3)
+twitter.com,x.com##div[aria-label="ホームタイムライン"] div[cslt_tweet_info]:has-text(ブロック中)
+twitter.com,x.com##div[aria-label="ホームタイムライン"] button[data-testid=UserCell]:has-text(ブロック中):nth-ancestor(3)
 
 !トレンドから除外
-x.com##div[data-testid="trend"]:has-text(生誕祭)
-x.com##div[data-testid="trend"]:has-text(誕生祭)
-x.com##div[data-testid="trend"]:has-text(凸)
+twitter.com,x.com##div[data-testid="trend"]:has-text(生誕祭)
+twitter.com,x.com##div[data-testid="trend"]:has-text(誕生祭)
+twitter.com,x.com##div[data-testid="trend"]:has-text(凸)
