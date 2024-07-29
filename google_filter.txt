@@ -55,6 +55,14 @@ www.google.com,www.google.co.jp##div.g:has(a[href*="://web.ultra-soccer.jp"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://www.footballchannel.jp"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://www.soccer-king.jp"])
 
+!アダルト
+www.google.com,www.google.co.jp##div.g:has(a[href*="://www.jav24.com"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://www.gravurefit.com"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://javcv.com"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://jav.land"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://javtrailers.com"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="//javfilms.com"])
+
 !その他
 www.google.com,www.google.co.jp##div.g:has(a[href*="://kurohaku.com"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://spaceshipearth.jp"])
