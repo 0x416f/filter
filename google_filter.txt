@@ -1,3 +1,4 @@
+!Title: Google検索フィルタ
 !まとめ系
 www.google.com,www.google.co.jp##div.g:has(a[href*="://paradises.jp"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://www.jisoku246.com"])
