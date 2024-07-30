@@ -62,6 +62,14 @@ www.google.com,www.google.co.jp##div.g:has(a[href*="://javcv.com"]), div[lang]:h
 www.google.com,www.google.co.jp##div.g:has(a[href*="://jav.land"]), div[lang]:has(a[href*="://jav.land"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://javtrailers.com"]), div[lang]:has(a[href*="://javtrailers.com"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://javfilms.com"]), div[lang]:has(a[href*="://javfilms.com"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://www.jav321.com"]), div[lang]:has(a[href*="://www.jav321.com"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://jav.how"]), div[lang]:has(a[href*="://jav.how"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://www.jav2.land"]), div[lang]:has(a[href*="://www.jav2.land"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://jav2.land"]), div[lang]:has(a[href*="://jav2.land"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://www.jav3.land"]), div[lang]:has(a[href*="://www.jav3.land"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://jav3.land"]), div[lang]:has(a[href*="://jav3.land"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://www.jav.land"]), div[lang]:has(a[href*="://www.jav.land"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://javdb.com"]), div[lang]:has(a[href*="://javdb.com"])
 
 !その他
 www.google.com,www.google.co.jp##div.g:has(a[href*="://kurohaku.com"]), div[lang]:has(a[href*="://kurohaku.com"])
