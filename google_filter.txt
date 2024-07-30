@@ -70,6 +70,9 @@ www.google.com,www.google.co.jp##div.g:has(a[href*="://www.jav3.land"]), div[lan
 www.google.com,www.google.co.jp##div.g:has(a[href*="://jav3.land"]), div[lang]:has(a[href*="://jav3.land"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://www.jav.land"]), div[lang]:has(a[href*="://www.jav.land"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://javdb.com"]), div[lang]:has(a[href*="://javdb.com"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://r18.dev"]), div[lang]:has(a[href*="://r18.dev"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://www.a-up.info"]), div[lang]:has(a[href*="://www.a-up.info"])
+www.google.com,www.google.co.jp##div.g:has(a[href*="://nukki.mhx.jp"]), div[lang]:has(a[href*="://nukki.mhx.jp"])
 
 !その他
 www.google.com,www.google.co.jp##div.g:has(a[href*="://kurohaku.com"]), div[lang]:has(a[href*="://kurohaku.com"])
