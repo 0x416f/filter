@@ -47,6 +47,7 @@ twitter.com,x.com##article:has(div[data-testid]:has-text(lite.tiktok)):nth-ances
 twitter.com,x.com##article:has(div[data-testid]:has-text(#お金配り)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid]:has-text(/#*と繋がりたい/)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid]:has-text(/#*凸/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid]:has-text(招待コード)):nth-ancestor(3)
 
 !ユーザ名
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:min-text-length(20))):nth-ancestor(3)
