@@ -127,3 +127,7 @@ youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-nz3jh2xw6p" i]))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@user-zl6cg4dr8r" i]))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@ntvsports" i]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@Woodyfootball" i]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@tubematu7441" i]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@ChelffeeChannel" i]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@samalfootballch12" i]))
