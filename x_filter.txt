@@ -1,3 +1,4 @@
+!Title: X(旧Twitter)フィルタ
 !左サイドバー
 twitter.com,x.com##a[href="/i/grok"]
 twitter.com,x.com##a[href$="/communities"]
