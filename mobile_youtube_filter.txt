@@ -120,3 +120,7 @@ m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-vg7ml6du7z" i]
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-nz3jh2xw6p" i])
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@user-zl6cg4dr8r" i])
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@ntvsports" i])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@Woodyfootball" i])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@tubematu7441" i])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@ChelffeeChannel" i])
+m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@samalfootballch12" i])
