@@ -51,6 +51,7 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(招待コ�
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/paypay/i)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#(イーフト|eFootball)/)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(.+\/){4}/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([A-Zぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠]+\s){4}/))
 
 !ユーザ名
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:min-text-length(20))):nth-ancestor(3)
