@@ -50,11 +50,11 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+凸/)):
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(招待コード)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/paypay/i)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#(イーフト|eFootball)/)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([A-Zぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠]+\s){4}/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([A-Zぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠#]+[\s/|]{4}/))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(#.+(\s|\n)*){3}/)):nth-ancestor(3)
 
 !ユーザ名
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:min-text-length(20))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[ぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠\s]{20,}/))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[@＠|｜]/))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(₿))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(NFT))):nth-ancestor(3)
