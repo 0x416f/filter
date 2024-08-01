@@ -37,18 +37,20 @@ twitter.com,x.com##div[aria-label="ホームタイムライン"] div[cslt_tweet_
 twitter.com,x.com##div[aria-label="ホームタイムライン"] button[data-testid=UserCell]:has-text(ブロック中):nth-ancestor(3)
 
 !トレンドから除外
-twitter.com,x.com##div[data-testid="trend"]:has-text(生誕祭)
-twitter.com,x.com##div[data-testid="trend"]:has-text(誕生祭)
-twitter.com,x.com##div[data-testid="trend"]:has-text(凸)
+twitter.com,x.com##div[data-testid="trend"]:has-text(/(生誕|誕生)祭/)
+twitter.com,x.com##div[data-testid="trend"]:has-text(/.+凸/)
 
 !ツイート
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(lin.ee)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(line.me)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(lite.tiktok)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(#お金配り)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#*と繋がりたい/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+と繋がりたい/)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+凸/)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(招待コード)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/paypay/i)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#(イーフト|eFootball)/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(.+\/){4}/)):nth-ancestor(3)
 
 !ユーザ名
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:min-text-length(20))):nth-ancestor(3)
