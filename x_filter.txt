@@ -45,13 +45,14 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(lin.ee)):nt
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(line.me)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(lite.tiktok)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(#お金配り)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+と繋がりたい/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+と繋が*りたい/)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+凸/)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(招待コード)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/paypay/i)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#(イーフト|eFootball)/)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(.+\/){4}/)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([A-Zぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠]+\s){4}/))
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/^(?!.+\.(jp|com|net)[\s]?\/).*([\w\s]+(/[^/\n]+){4}\b)/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([A-Zぁ-んァ-ヶｱ-ﾝﾞﾟ一-龠]+\s){4}/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(#.+(\s|\n)*){3}/)):nth-ancestor(3)
 
 !ユーザ名
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:min-text-length(20))):nth-ancestor(3)
