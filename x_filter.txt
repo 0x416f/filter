@@ -51,9 +51,9 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(招待コ�
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/paypay/i)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#(イーフト|eFootball)/)):nth-ancestor(3)
 !トレンド系キーワードの羅列
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[\s/|]){4}/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[ 　/|]){4}/)):nth-ancestor(3)
 !複数の日本語ハッシュタグの羅列
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(#[^a-zA-Z]+(\s|\n)*){3}/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(#[^a-zA-Z]+( 　|\n)*){3}/)):nth-ancestor(3)
 
 !ユーザ名
 !20文字以上の英数字以外で構成
