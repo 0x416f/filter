@@ -51,14 +51,17 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(招待コ�
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/paypay/i)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#(イーフト|eFootball)/)):nth-ancestor(3)
 !トレンド系キーワードの羅列
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([A-Zぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[\s/|]){4}/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[\s/|]){4}/)):nth-ancestor(3)
 !複数の日本語ハッシュタグの羅列
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(#[^a-zA-Z]+(\s|\n)*){3}/)):nth-ancestor(3)
 
 !ユーザ名
 !20文字以上の英数字以外で構成
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[^a-zA-Z0-9]{20,}/))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[@＠|｜]/))):nth-ancestor(3)
+!@や|で肩書きを記載したビジネス系アカウント
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠].* ?[@＠|｜-―_＿~～]/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[@＠|｜-―_＿~～] ?.*[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠]/))):nth-ancestor(3)
+
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(₿))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(NFT))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/web3/i))):nth-ancestor(3)
