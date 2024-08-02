@@ -59,8 +59,8 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(#[^a-zA-Z
 !20文字以上の英数字以外で構成
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[^a-zA-Z0-9]{20,}/))):nth-ancestor(3)
 !@や|で肩書きを記載したビジネス系アカウント
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠].* ?[@＠|｜-―_＿~～]/))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[@＠|｜-―_＿~～] ?.*[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠]/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠].* ?[@＠|｜\-―_＿~～]/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[@＠|｜\-―_＿~～] ?.*[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠]/))):nth-ancestor(3)
 
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(₿))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(NFT))):nth-ancestor(3)
