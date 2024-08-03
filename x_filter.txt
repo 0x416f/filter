@@ -56,6 +56,8 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#(イー�
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[ 　/|]){4}/)):nth-ancestor(3)
 !複数の日本語ハッシュタグの羅列
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(#[^a-zA-Z]+( 　|\n)*){3}/)):nth-ancestor(3)
+!アラビア語
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/[\u0600-\u06FF]/)):nth-ancestor(3)
 
 !ユーザ名
 !20文字以上の英数字以外で構成
@@ -63,6 +65,8 @@ twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-te
 !@や|で肩書きを記載したビジネス系アカウント
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠].* ?[@＠|｜]/))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[@＠|｜] ?.*[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠]/))):nth-ancestor(3)
+!アラビア語
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[\u0600-\u06FF]/))):nth-ancestor(3)
 
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(₿))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(NFT))):nth-ancestor(3)
