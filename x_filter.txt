@@ -49,6 +49,8 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+と繋�
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+凸/)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(招待コード)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/paypay/i)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(自動売買)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(オープンチャット|オプチャ)/)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#(イーフト|eFootball)/)):nth-ancestor(3)
 !トレンド系キーワードの羅列
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[ 　/|]){4}/)):nth-ancestor(3)
@@ -68,6 +70,7 @@ twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-te
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(資産))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(お金))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(副業))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(自動売買))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/FIRE/i))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(プレゼント))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(通りすがりの))):nth-ancestor(3)
