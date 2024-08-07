@@ -1,3 +1,4 @@
+!Title: YouTubeフィルタ
 !ショート
 youtube.com##ytd-reel-shelf-renderer
 youtube.com##ytd-mini-guide-entry-renderer:has-text(ショート)
