@@ -1,3 +1,4 @@
+!Title: モバイル版YouTubeフィルタ
 !画面下部のショート動画アイコン
 m.youtube.com##ytm-pivot-bar-item-renderer:has-text(ショート)
 
@@ -56,6 +57,9 @@ m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:ha
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(批判殺到))
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(夫婦))
 m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(末路))
+
+!チャンネル名
+m.youtube.com##ytm-video-with-context-renderer:has(.yt-core-attributed-string:has-text(切り抜き))
 
 !チャンネル
 m.youtube.com##ytm-video-with-context-renderer:has(a[href="/@RTAbiim"])
