@@ -1,3 +1,4 @@
+!Title: Yahooフィルタ
 !サイドバー
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="biz"]
 www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="info"]
