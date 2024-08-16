@@ -1,6 +1,7 @@
 !Title: X(旧Twitter)フィルタ
 !左サイドバー
 twitter.com,x.com##a[href="/i/grok"]
+twitter.com,x.com##a[href="/jobs"]
 twitter.com,x.com##a[href$="/communities"]
 twitter.com,x.com##a[href="/i/premium_sign_up"]
 twitter.com,x.com##a[href="/i/verified-orgs-signup"]
