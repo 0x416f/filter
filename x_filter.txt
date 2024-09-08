@@ -41,6 +41,7 @@ twitter.com,x.com##div[aria-label="ホームタイムライン"] button[data-tes
 !トレンドから除外
 twitter.com,x.com##div[data-testid="trend"]:has-text(/(生誕|誕生)祭/)
 twitter.com,x.com##div[data-testid="trend"]:has-text(/.+凸/)
+twitter.com,x.com##div[data-testid="trend"]:has-text(/裏アカ/)
 
 !ツイート
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(lin.ee)):nth-ancestor(3)
