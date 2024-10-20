@@ -43,6 +43,10 @@ twitter.com,x.com##div[data-testid="trend"]:has-text(/(生誕|誕生)祭/)
 twitter.com,x.com##div[data-testid="trend"]:has-text(/.+凸/)
 twitter.com,x.com##div[data-testid="trend"]:has-text(/裏アカ/)
 
+!おすすめ動画を非表示
+twitter.com,x.com##span:has-text(おすすめ動画):nth-ancestor(6)
+twitter.com,x.com##div[aria-label="タイムライン: Carousel"]:nth-ancestor(4)
+
 !ツイート
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(lin.ee)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(line.me)):nth-ancestor(3)
