@@ -55,6 +55,9 @@ www.google.com,www.google.co.jp##div.g:has(a[href*="://web.ultra-soccer.jp"]), d
 www.google.com,www.google.co.jp##div.g:has(a[href*="://www.footballchannel.jp"]), div[lang]:has(a[href*="://www.footballchannel.jp"])
 www.google.com,www.google.co.jp##div.g:has(a[href*="://www.soccer-king.jp"]), div[lang]:has(a[href*="://www.soccer-king.jp"])
 
+!テック
+www.google.com,www.google.co.jp##div.g:has(a[href*="://fa-works.com"]), div[lang]:has(a[href*="://fa-works.com"])
+
 !アダルト
 www.google.com,www.google.co.jp##div.MjjYud:has(a[href*="://www.jav24.com"])
 www.google.com,www.google.co.jp##div.MjjYud:has(a[href*="://www.gravurefit.com"])
