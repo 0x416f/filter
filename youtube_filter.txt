@@ -135,3 +135,4 @@ youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@tubematu7441" i]))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@ChelffeeChannel" i]))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@samalfootballch12" i]))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has(a[href="/@TOP1-TBS" i]))
