@@ -61,6 +61,7 @@ youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(批判殺到))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(夫婦))
 youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(末路))
+youtube.com##ytd-rich-item-renderer, ytd-video-renderer:has(yt-formatted-string:has-text(/します。$/))
 
 !チャンネル名
 youtube.com##ytd-compact-video-renderer:has(yt-formatted-string:has-text(切り抜き))
