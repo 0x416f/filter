@@ -59,6 +59,8 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/paypay/i))
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(自動売買)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(オープンチャット|オプチャ)/)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#(イーフト|eFootball)/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/知らんけど。*$/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/thread/i)):nth-ancestor(3)
 !トレンド系キーワードの羅列
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[ 　/|]){4}/)):nth-ancestor(3)
 !複数の日本語ハッシュタグの羅列
@@ -87,3 +89,14 @@ twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-te
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(プレゼント))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(通りすがりの))):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(逆襲の))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/世界一.+な.+/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/.+なただの.+/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/.+好きな.+/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/しがない./))):nth-ancestor(3)
+!サッカー系
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/ちぇる/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/ぐな/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/な(グーナー|ぐーなー)$/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/な(KOP|コップ|こっぷ)$/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/なクレ$/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/.SZN$/))):nth-ancestor(3)
