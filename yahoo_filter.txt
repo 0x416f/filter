@@ -1,14 +1,14 @@
 !Title: Yahooフィルタ
 !サイドバー
-www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="biz"]
-www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##[id*="info"]
+yahoo.co.jp##[id*="biz"]
+yahoo.co.jp##[id*="info"]
 
 !広告
-www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##li:has(a[href*="paypay"])
-www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##li:has(a[href*="lyp"])
-www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##li:has(a[href*="takarabako"])
-www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##li:has(a[href*="promotion"])
-www.yahoo.co.jp,news.yahoo.co.jp,m.yahoo.co.jp##li:has(a[href*="prom"])
+yahoo.co.jp##li:has(a[href*="paypay"])
+yahoo.co.jp##li:has(a[href*="lyp"])
+yahoo.co.jp##li:has(a[href*="takarabako"])
+yahoo.co.jp##li:has(a[href*="promotion"])
+yahoo.co.jp##li:has(a[href*="prom"])
 
 !記事
 yahoo.co.jp##a:has(:is(span, cite):has-text(ananweb)):nth-ancestor(1)
@@ -31,7 +31,7 @@ yahoo.co.jp##a:has(:is(span, cite):has-text(E-TALENTBANK)):nth-ancestor(1)
 yahoo.co.jp##a:has(:is(span, cite):has-text(gooランキング)):nth-ancestor(1)
 yahoo.co.jp##a:has(:is(span, cite):has-text(Kstyle)):nth-ancestor(1)
 yahoo.co.jp##a:has(:is(span, cite):has-text(MusicVoice)):nth-ancestor(1)
-yahoo.co.jp##a:has(:is(span, cite):has-text(TVLIFEweb)):nth-ancestor(1)
+yahoo.co.jp##a:has(:is(span, cite):has-text(TV LIFE web)):nth-ancestor(1)
 yahoo.co.jp##a:has(:is(span, cite):has-text(Yahoo!テレビ.Gガイド)):nth-ancestor(1)
 yahoo.co.jp##a:has(:is(span, cite):has-text(エンタメNEXT)):nth-ancestor(1)
 yahoo.co.jp##a:has(:is(span, cite):has-text(エンタメOVO)):nth-ancestor(1)
