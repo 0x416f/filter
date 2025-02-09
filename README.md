@@ -1,11 +1,8 @@
 ## X(旧Twitter)フィルタ
 [フィルタを購読する](https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/0x416f/filter/main/x_filter.txt&title=Xフィルタ) ([中身を見る](https://raw.githubusercontent.com/0x416f/filter/main/x_filter.txt))
 
-## YouTubeフィルタ(PC版)
+## YouTubeフィルタ
 [フィルタを購読する](https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/0x416f/filter/main/youtube_filter.txt&title=YouTubeフィルタ) ([中身を見る](https://raw.githubusercontent.com/0x416f/filter/main/youtube_filter.txt))
-
-## YouTubeフィルタ(モバイル版)
-[フィルタを購読する](https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/0x416f/filter/main/mobile_youtube_filter.txt&title=YouTubeフィルタ) ([中身を見る](https://raw.githubusercontent.com/0x416f/filter/main/mobile_youtube_filter.txt))
 
 ## Googleフィルタ
 [フィルタを購読する](https://subscribe.adblockplus.org?location=https://raw.githubusercontent.com/0x416f/filter/main/google_filter.txt&title=Googleフィルタ) ([中身を見る](https://raw.githubusercontent.com/0x416f/filter/main/google_filter.txt))
