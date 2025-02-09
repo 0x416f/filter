@@ -1,9 +1,7 @@
 !Title: YouTubeフィルタ
 !ショート
 youtube.com##ytd-reel-shelf-renderer
-youtube.com##ytd-mini-guide-entry-renderer:has-text(ショート)
-youtube.com##ytd-guide-entry-renderer:has-text(ショート)
-youtube.com##ytd-rich-section-renderer:has-text(ショート)
+youtube.com##:is(ytd-mini-guide-entry-renderer, ytd-guide-entry-renderer, ytd-rich-section-renderer):has-text(ショート)
 youtube.com##:is(ytd-shelf-renderer, ytd-rich-item-renderer, ytd-video-renderer):has(badge-shape:has-text(ショート))
 
 !チャンネル
@@ -18,6 +16,9 @@ youtube.com##ytd-guide-section-renderer:has-text(YouTube の他のサービス)
 
 !他の人はこちらも検索
 youtube.com##ytd-horizontal-card-list-renderer:has-text(他の人はこちらも検索)
+
+!視聴回数制限(400回未満)
+youtube.com##:is(ytd-rich-item-renderer, ytd-video-renderer, ytd-compact-video-renderer):has(span:has-text(/^[1-3]?\d{2} 回視聴/))
 
 !キーワード
 youtube.com##:is(ytd-rich-item-renderer, ytd-video-renderer):has(yt-formatted-string:has-text(/DaiGo/))
