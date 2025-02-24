@@ -84,7 +84,7 @@ yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-tex
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/Lmaga\.jp/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/PHPオンライン衆知/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/Techinsight/))
-yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/TRILL ニュース/))
+yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/TRILL/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/インサイド/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/えらせん/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/クーリエ・ジャポン/))
