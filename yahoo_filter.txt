@@ -149,3 +149,4 @@ yahoo.co.jp##a:has(:is(span, cite):has-text(/インフルエンサー/)):nth-anc
 yahoo.co.jp##a:has(:is(span, cite):has-text(/衝撃/)):nth-ancestor(1)
 yahoo.co.jp##a:has(:is(span, cite):has-text(/疑惑/)):nth-ancestor(1)
 yahoo.co.jp##a:has(:is(span, cite):has-text(/こと\s*/)):nth-ancestor(1)
+yahoo.co.jp##a:has(:is(span, cite):has-text(/悲鳴/)):nth-ancestor(1)
