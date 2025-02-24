@@ -178,7 +178,7 @@ yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-tex
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/酷評/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/の嵐/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/アラ(サー|フォー|フィフ)/))
-yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/独女/))
+yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/独身?[男女]/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/語(った|る)/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/理不尽/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/[過す]ぎ[たなる]/))
