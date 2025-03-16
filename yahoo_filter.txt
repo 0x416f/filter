@@ -97,6 +97,7 @@ yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-tex
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/よろず～ニュース/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/ランキングー/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/毎日キレイ/))
+yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/25ansウエディング/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/[!！]/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/[?？]/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/「/))
@@ -189,3 +190,4 @@ yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-tex
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/波紋/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/物議/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/続々/))
+yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/ランク/))
