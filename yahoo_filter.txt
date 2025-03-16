@@ -188,3 +188,4 @@ yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-tex
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/スペシャル/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/波紋/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/物議/))
+yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/続々/))
