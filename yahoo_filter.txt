@@ -195,3 +195,4 @@ yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-tex
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/[0-9]選/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/激震/))
 yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/最[強弱]/))
+yahoo.co.jp##:is(li, article[data-ual-view-type]):has(:is(span, cite, a):has-text(/末路/))
