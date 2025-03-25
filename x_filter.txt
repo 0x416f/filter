@@ -65,6 +65,7 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(戦犯)):nt
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(crap )):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/wank(er)* /)):nth-ancestor(3)
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(嘘松)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/[来き]ちゃ[ぁあー]{2}/)):nth-ancestor(3)
 !トレンド系キーワードの羅列
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[ 　/|]){4}/)):nth-ancestor(3)
 !複数の日本語ハッシュタグの羅列
