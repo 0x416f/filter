@@ -1,107 +1,107 @@
 !Title: X(旧Twitter)フィルタ
 !左サイドバー
-!twitter.com,x.com##a[href="/i/grok"]
-twitter.com,x.com##a[href="/jobs"]
-twitter.com,x.com##a[href$="/communities"]
-twitter.com,x.com##a[href="/i/premium_sign_up"]
-twitter.com,x.com##a[href="/i/verified-orgs-signup"]
+!twitter.com,x.com##a[href="/i/grok"]:remove()
+twitter.com,x.com##a[href="/jobs"]:remove()
+twitter.com,x.com##a[href$="/communities"]:remove()
+twitter.com,x.com##a[href="/i/premium_sign_up"]:remove()
+twitter.com,x.com##a[href="/i/verified-orgs-signup"]:remove()
 
 !右サイドバー
-twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(プレミアム)
-twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(いまどうしてる？)
-twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(おすすめユーザー)
-twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(おすすめツイート)
-twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(関連性の高いアカウント)
-twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(Explore)
+twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(プレミアム):remove()
+twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(いまどうしてる？):remove()
+twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(おすすめユーザー):remove()
+twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(おすすめツイート):remove()
+twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(関連性の高いアカウント):remove()
+twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(Explore):remove()
 
 !上部の投稿フォームを非表示
-twitter.com,x.com##[aria-label="ホームタイムライン"]>div:has([data-testid*="Textarea"])
+twitter.com,x.com##[aria-label="ホームタイムライン"]>div:has([data-testid*="Textarea"]):remove()
 
 !画面下部のDMフォームを非表示
-twitter.com,x.com##[data-testid="DMDrawer"]
+twitter.com,x.com##[data-testid="DMDrawer"]:remove()
 
 !個別ページのフォロー/サブスクボタンの非表示(誤フォロー/フォロー外し防止)
-twitter.com,x.com##[aria-label="タイムライン: 会話"] button:has-text(フォロー)
-twitter.com,x.com##[aria-label="タイムライン: 会話"] button:has-text(購入する)
+twitter.com,x.com##[aria-label="タイムライン: 会話"] button:has-text(フォロー):remove()
+twitter.com,x.com##[aria-label="タイムライン: 会話"] button:has-text(購入する):remove()
 
-twitter.com,x.com##[aria-label="ホームタイムライン"] button:has-text(購入する):upward(1)
-twitter.com,x.com##[aria-label="ホームタイムライン"] button[aria-label*="サブスクライブ"]
+twitter.com,x.com##[aria-label="ホームタイムライン"] button:has-text(購入する):upward(1):remove()
+twitter.com,x.com##[aria-label="ホームタイムライン"] button[aria-label*="サブスクライブ"]:remove()
 
-twitter.com,x.com##div[role="menuitem"]:has-text(さんをフォロー)
-twitter.com,x.com##div[role="menuitem"]:has-text(さんのフォローを解除)
-twitter.com,x.com##div[role="menuitem"]:has-text(購入する)
+twitter.com,x.com##div[role="menuitem"]:has-text(さんをフォロー):remove()
+twitter.com,x.com##div[role="menuitem"]:has-text(さんのフォローを解除):remove()
+twitter.com,x.com##div[role="menuitem"]:has-text(購入する):remove()
 
 !TL更新時の矢印アイコンを非表示(モバイル版のブックマーク検索の障害になる)
-twitter.com,x.com##svg[aria-label*="画面を引き下げて更新"]:nth-ancestor(1)
+twitter.com,x.com##svg[aria-label*="画面を引き下げて更新"]:nth-ancestor(1):remove()
 
 !ブロックユーザーを一覧に表示しない
-twitter.com,x.com##div[aria-label="ホームタイムライン"] div[cslt_tweet_info]:has-text(ブロック中)
-twitter.com,x.com##div[aria-label="ホームタイムライン"] button[data-testid=UserCell]:has-text(ブロック中):nth-ancestor(3)
+twitter.com,x.com##div[aria-label="ホームタイムライン"] div[cslt_tweet_info]:has-text(ブロック中):remove()
+twitter.com,x.com##div[aria-label="ホームタイムライン"] button[data-testid=UserCell]:has-text(ブロック中):nth-ancestor(3):remove()
 
 !トレンドから除外
-twitter.com,x.com##div[data-testid="trend"]:has-text(/(生誕|誕生)祭/)
-twitter.com,x.com##div[data-testid="trend"]:has-text(/.+凸/)
-twitter.com,x.com##div[data-testid="trend"]:has-text(/裏アカ/)
+twitter.com,x.com##div[data-testid="trend"]:has-text(/(生誕|誕生)祭/):remove()
+twitter.com,x.com##div[data-testid="trend"]:has-text(/.+凸/):remove()
+twitter.com,x.com##div[data-testid="trend"]:has-text(/裏アカ/):remove()
 
 !おすすめ動画を非表示
-twitter.com,x.com##span:has-text(おすすめ動画):nth-ancestor(6)
-twitter.com,x.com##div[aria-label="タイムライン: Carousel"]:nth-ancestor(4)
+twitter.com,x.com##span:has-text(おすすめ動画):nth-ancestor(6):remove()
+twitter.com,x.com##div[aria-label="タイムライン: Carousel"]:nth-ancestor(4):remove()
 
 !ツイート
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(lin.ee)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(line.me)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(lite.tiktok)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(#お金配り)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+と繋が*りたい/)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+凸/)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(招待コード)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/paypay/i)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(自動売買)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(オープンチャット|オプチャ)/)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#(イーフト|eFootball)/)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/知らんけど。*$/)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/thread/i)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(戦犯)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(crap )):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/wank(er)* /)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(嘘松)):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/[来き]ちゃ[ぁあー]{2}/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(lin.ee)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(line.me)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(lite.tiktok)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(#お金配り)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+と繋が*りたい/)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#.+凸/)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(招待コード)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/paypay/i)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(自動売買)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(オープンチャット|オプチャ)/)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/#(イーフト|eFootball)/)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/知らんけど。*$/)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/thread/i)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(戦犯)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(crap )):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/wank(er)* /)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(嘘松)):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/[来き]ちゃ[ぁあー]{2}/)):nth-ancestor(3):remove()
 !トレンド系キーワードの羅列
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[ 　/|]){4}/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[ 　/|]){4}/)):nth-ancestor(3):remove()
 !複数の日本語ハッシュタグの羅列
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(#[^a-zA-Z]+( 　|\n)*){3}/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(#[^a-zA-Z]+( 　|\n)*){3}/)):nth-ancestor(3):remove()
 !アラビア語
-twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/[\u0600-\u06FF]/)):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/[\u0600-\u06FF]/)):nth-ancestor(3):remove()
 
 !ユーザ名
 !20文字以上の英数字(アルファベット、サロゲートペア\uD800-\uDFFFによるボールド、イタリック、ゴシック等を含む文字)以外で構成
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/([^\w\u0080-\u0240\u{1D400}-\u{1D7FF}\uD800-\uDFFF].*){20,}/u))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/([^\w\u0080-\u0240\u{1D400}-\u{1D7FF}\uD800-\uDFFF].*){20,}/u))):nth-ancestor(3):remove()
 !@や|で肩書きを記載したビジネス系アカウント
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠].* ?[@＠|｜]/))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[@＠|｜] ?.*[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠]/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠].* ?[@＠|｜]/))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[@＠|｜] ?.*[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠]/))):nth-ancestor(3):remove()
 !アラビア語
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[\u0600-\u06FF]/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[\u0600-\u06FF]/))):nth-ancestor(3):remove()
 
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(₿))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(NFT))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/web3/i))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(資産))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(お金))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(副業))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(自動売買))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(無料))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/FIRE/i))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(プレゼント))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(通りすがりの))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(逆襲の))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/世界一.+な/))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/.+なただの.+/))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/.+好きな.+/))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/しがない./))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(₿))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(NFT))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/web3/i))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(資産))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(お金))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(副業))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(自動売買))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(無料))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/FIRE/i))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(プレゼント))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(通りすがりの))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(逆襲の))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/世界一.+な/))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/.+なただの.+/))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/.+好きな.+/))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/しがない./))):nth-ancestor(3):remove()
 !サッカー系
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/ちぇる/))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/ぐな/))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/な(グーナー|ぐーなー)$/))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/な(KOP|コップ|こっぷ)$/))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/なクレ$/))):nth-ancestor(3)
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/.SZN$/))):nth-ancestor(3)
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/ちぇる/))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/ぐな/))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/な(グーナー|ぐーなー)$/))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/な(KOP|コップ|こっぷ)$/))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/なクレ$/))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/.SZN$/))):nth-ancestor(3):remove()
