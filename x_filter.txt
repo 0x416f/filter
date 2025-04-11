@@ -77,10 +77,10 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/[\u0600-\u
 !20文字以上の英数字(アルファベット、サロゲートペア\uD800-\uDFFFによるボールド、イタリック、ゴシック等を含む文字)以外で構成
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/([^\w\u0080-\u0240\u{1D400}-\u{1D7FF}\uD800-\uDFFF].*){20,}/u))):nth-ancestor(3):remove()
 !@や|で肩書きを記載したビジネス系アカウント
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠].* ?[@＠|｜]/))):nth-ancestor(3):remove()
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[@＠|｜] ?.*[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠]/))):nth-ancestor(3):remove()
+!twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠].* ?[@＠|｜]/))):nth-ancestor(3):remove()
+!twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[@＠|｜] ?.*[ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠]/))):nth-ancestor(3):remove()
 !アラビア語
-twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[\u0600-\u06FF]/))):nth-ancestor(3):remove()
+!twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[\u0600-\u06FF]/))):nth-ancestor(3):remove()
 
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(₿))):nth-ancestor(3):remove()
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(NFT))):nth-ancestor(3):remove()
