@@ -21,31 +21,31 @@ twitter.com,x.com##[aria-label="ホームタイムライン"]>div:has([data-test
 twitter.com,x.com##[data-testid="DMDrawer"]
 
 !個別ページのフォロー/サブスクボタンの非表示(誤フォロー/フォロー外し防止)
-twitter.com,x.com##[aria-label="タイムライン: 会話"] button:has-text(フォロー):remove()
-twitter.com,x.com##[aria-label="タイムライン: 会話"] button:has-text(購入する):remove()
+twitter.com,x.com##[aria-label="タイムライン: 会話"] button:has-text(フォロー)
+twitter.com,x.com##[aria-label="タイムライン: 会話"] button:has-text(購入する)
 
-twitter.com,x.com##[aria-label="ホームタイムライン"] button:has-text(購入する):upward(1):remove()
-twitter.com,x.com##[aria-label="ホームタイムライン"] button[aria-label*="サブスクライブ"]:remove()
+twitter.com,x.com##[aria-label="ホームタイムライン"] button:has-text(購入する):upward(1)
+twitter.com,x.com##[aria-label="ホームタイムライン"] button[aria-label*="サブスクライブ"]
 
-twitter.com,x.com##div[role="menuitem"]:has-text(さんをフォロー):remove()
-twitter.com,x.com##div[role="menuitem"]:has-text(さんのフォローを解除):remove()
-twitter.com,x.com##div[role="menuitem"]:has-text(購入する):remove()
+twitter.com,x.com##div[role="menuitem"]:has-text(さんをフォロー)
+twitter.com,x.com##div[role="menuitem"]:has-text(さんのフォローを解除)
+twitter.com,x.com##div[role="menuitem"]:has-text(購入する)
 
 !TL更新時の矢印アイコンを非表示(モバイル版のブックマーク検索の障害になる)
 twitter.com,x.com##svg[aria-label*="画面を引き下げて更新"]:nth-ancestor(1)
 
 !ブロックユーザーを一覧に表示しない
-twitter.com,x.com##div[aria-label="ホームタイムライン"] div[cslt_tweet_info]:has-text(ブロック中):remove()
-twitter.com,x.com##div[aria-label="ホームタイムライン"] button[data-testid=UserCell]:has-text(ブロック中):nth-ancestor(3):remove()
+twitter.com,x.com##div[aria-label="ホームタイムライン"] div[cslt_tweet_info]:has-text(ブロック中)
+twitter.com,x.com##div[aria-label="ホームタイムライン"] button[data-testid=UserCell]:has-text(ブロック中):nth-ancestor(3)
 
 !トレンドから除外
-twitter.com,x.com##div[data-testid="trend"]:has-text(/(生誕|誕生)祭/):remove()
-twitter.com,x.com##div[data-testid="trend"]:has-text(/.+凸/):remove()
-twitter.com,x.com##div[data-testid="trend"]:has-text(/裏アカ/):remove()
+twitter.com,x.com##div[data-testid="trend"]:has-text(/(生誕|誕生)祭/)
+twitter.com,x.com##div[data-testid="trend"]:has-text(/.+凸/)
+twitter.com,x.com##div[data-testid="trend"]:has-text(/裏アカ/)
 
 !おすすめ動画を非表示
-twitter.com,x.com##span:has-text(おすすめ動画):nth-ancestor(6):remove()
-twitter.com,x.com##div[aria-label="タイムライン: Carousel"]:nth-ancestor(4):remove()
+twitter.com,x.com##span:has-text(おすすめ動画):nth-ancestor(6)
+twitter.com,x.com##div[aria-label="タイムライン: Carousel"]:nth-ancestor(4)
 
 !ツイート
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(lin.ee)):nth-ancestor(3):remove()
