@@ -32,7 +32,7 @@ twitter.com,x.com##div[role="menuitem"]:has-text(さんのフォローを解除)
 twitter.com,x.com##div[role="menuitem"]:has-text(購入する):remove()
 
 !TL更新時の矢印アイコンを非表示(モバイル版のブックマーク検索の障害になる)
-twitter.com,x.com##svg[aria-label*="画面を引き下げて更新"]:nth-ancestor(1):remove()
+twitter.com,x.com##svg[aria-label*="画面を引き下げて更新"]:nth-ancestor(1)
 
 !ブロックユーザーを一覧に表示しない
 twitter.com,x.com##div[aria-label="ホームタイムライン"] div[cslt_tweet_info]:has-text(ブロック中):remove()
