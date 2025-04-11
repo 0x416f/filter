@@ -15,7 +15,7 @@ twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(関連性の
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(Explore):remove()
 
 !上部の投稿フォームを非表示
-twitter.com,x.com##[aria-label="ホームタイムライン"]>div:has([data-testid*="Textarea"]):remove()
+twitter.com,x.com##[aria-label="ホームタイムライン"]>div:has([data-testid*="Textarea"])
 
 !画面下部のDMフォームを非表示
 twitter.com,x.com##[data-testid="DMDrawer"]:remove()
