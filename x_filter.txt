@@ -67,9 +67,9 @@ twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/wank(er)* 
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(嘘松)):nth-ancestor(3):remove()
 twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/[来き]ちゃ[ぁあー]{2}/)):nth-ancestor(3):remove()
 !トレンド系キーワードの羅列
-!twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[ 　/|]){4}/)):nth-ancestor(3):remove()
+!twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/([ぁ-んーァ-ヶｱ-ﾝﾞﾟ一-龠#]+[\s/|]){4}/)):nth-ancestor(3):remove()
 !複数の日本語ハッシュタグの羅列
-!twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(#[^a-zA-Z]+( 　|\n)*){3}/)):nth-ancestor(3):remove()
+!twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/(#[^a-zA-Z]+(\s|\n)*){3}/)):nth-ancestor(3):remove()
 !アラビア語
 !twitter.com,x.com##article:has(div[data-testid="tweetText"]:has-text(/[\u0600-\u06FF]/)):nth-ancestor(3):remove()
 
