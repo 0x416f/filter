@@ -3,6 +3,10 @@
 yahoo.co.jp##[id*="biz"]
 yahoo.co.jp##[id*="info"]
 
+yahoo.co.jp##li:has(a[href*="chiebukuro.yahoo"])
+yahoo.co.jp##li:has(a[href*="toku.yahoo"])
+yahoo.co.jp##li:has(a[href*="crowdsourcing.yahoo"])
+
 !広告
 yahoo.co.jp##li:has(a[href*="paypay"])
 yahoo.co.jp##li:has(a[href*="lyp"])
