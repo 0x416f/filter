@@ -9,7 +9,7 @@ twitter.com,x.com##a[href="/i/verified-orgs-signup"]
 !右サイドバー
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(プレミアム)
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(いまどうしてる？)
-twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(おすすめユーザー)
+twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(/おすすめ(ユーザー)?/)
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(おすすめツイート)
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(関連性の高いアカウント)
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(Explore)
