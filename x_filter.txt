@@ -13,6 +13,7 @@ twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(/おすす�
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(おすすめツイート)
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(関連性の高いアカウント)
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(Explore)
+twitter.com,x.com##[aria-label="トレンド"]>div>div:has-text(/「いま」を見つけよう/)
 
 !上部の投稿フォームを非表示
 twitter.com,x.com##[aria-label="ホームタイムライン"]>div:has([data-testid*="Textarea"])
