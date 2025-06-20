@@ -39,6 +39,10 @@ twitter.com,x.com##svg[aria-label*="画面を引き下げて更新"]:nth-ancesto
 twitter.com,x.com##div[aria-label="ホームタイムライン"] div[cslt_tweet_info]:has-text(ブロック中)
 twitter.com,x.com##div[aria-label="ホームタイムライン"] button[data-testid=UserCell]:has-text(ブロック中):nth-ancestor(3)
 
+!本日のニュース
+twitter.com,x.com##.r-1ny4l3l.r-1wtj0ep
+twitter.com,x.com##.r-1knelpx
+
 !トレンドから除外
 twitter.com,x.com##div[data-testid="trend"]:has-text(/(生誕|誕生)祭/)
 twitter.com,x.com##div[data-testid="trend"]:has-text(/.+凸/)
