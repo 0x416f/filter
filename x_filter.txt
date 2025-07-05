@@ -111,6 +111,7 @@ twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-te
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/しがない./))):nth-ancestor(3):remove()
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/[帝覇]王/))):nth-ancestor(3):remove()
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/.+屋さん/))):nth-ancestor(3):remove()
+twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/野生の.+/))):nth-ancestor(3):remove()
 
 !サッカー系
 twitter.com,x.com##article:has(div[data-testid="User-Name"]:has(span>span:has-text(/ちぇる/))):nth-ancestor(3):remove()
