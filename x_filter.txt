@@ -48,6 +48,10 @@ twitter.com,x.com##.r-1xpp3t0
 twitter.com,x.com##.r-1ny4l3l.r-1wtj0ep
 twitter.com,x.com##.r-1knelpx
 
+!話題を検索ページ
+!速報的な見出し記事
+twitter.com,x.com##.r-bnwqim.r-ttdzmv
+
 !トレンドから除外
 twitter.com,x.com##div[data-testid="trend"]:has-text(/(生誕|誕生)祭/)
 twitter.com,x.com##div[data-testid="trend"]:has-text(/.+凸/)
