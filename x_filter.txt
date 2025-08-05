@@ -15,6 +15,7 @@ twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(関連性の
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(Explore)
 twitter.com,x.com##div[aria-label="タイムライン: トレンド"]
 twitter.com,x.com##div[aria-label="タイムライン: 速報"]
+twitter.com,x.com##div:has(>[data-testid="news_sidebar"])
 
 !上部の投稿フォームを非表示
 twitter.com,x.com##[aria-label="ホームタイムライン"]>div:has([data-testid*="Textarea"])
