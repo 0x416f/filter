@@ -7,6 +7,7 @@ twitter.com,x.com##a[href="/i/premium_sign_up"]
 twitter.com,x.com##a[href="/i/verified-orgs-signup"]
 twitter.com,x.com##a[href="/i/premium-business"]
 twitter.com,x.com##a[href="/i/jf/creators/studio"]
+twitter.com,x.com##a[href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb"]
 
 !右サイドバー
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(プレミアム)
