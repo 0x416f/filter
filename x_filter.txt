@@ -6,6 +6,7 @@ twitter.com,x.com##a[href$="/communities"]
 twitter.com,x.com##a[href="/i/premium_sign_up"]
 twitter.com,x.com##a[href="/i/verified-orgs-signup"]
 twitter.com,x.com##a[href="/i/premium-business"]
+twitter.com,x.com##a[href="/i/jf/creators/studio"]
 
 !右サイドバー
 twitter.com,x.com##[aria-label="トレンド"]>div>div>div:has-text(プレミアム)
