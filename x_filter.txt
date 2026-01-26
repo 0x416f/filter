@@ -48,7 +48,7 @@ twitter.com,x.com##div[aria-label="ホームタイムライン"] button[data-tes
 twitter.com,x.com##.r-1xpp3t0
 
 !本日のニュース
-twitter.com,x.com##.r-1ny4l3l.r-1wtj0ep
+!twitter.com,x.com##.r-1ny4l3l.r-1wtj0ep
 twitter.com,x.com##.r-1knelpx
 
 !話題を検索ページ
